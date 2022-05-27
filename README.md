@@ -1,4 +1,4 @@
-# IA_M2
+# Trabalho IA M2
 Para rodar o arquivo:<br>
 1 - vá até a basta backend<br>
 2 - npm install (é necessario ter instalado nodejs)<br>
