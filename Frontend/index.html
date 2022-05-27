@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Sistema</title>
+    <script src='index.js'></script>
+</head>
+<body>
+   
+  
+    <h1>Entradas</h1>
+    <h4>É aluno</h4>
+    <select id="aluno">
+        <option value="Não">Não</option>
+        <option value="Sim">Sim</option>
+    </select>
+    <h4>Curso Matriculado</h4>
+    <select id="cursoMatriculado">
+        <option value="Não matriculado">Não matriculado</option>
+        <option value="Violão">Violão</option>
+        <option value="Violino">Violino</option>
+        <option value="Bateria">Bateria</option>
+        <option value="Guitarra">Guitarra</option>
+        <option value="Piano">Piano</option>
+    </select>
+    <h4>Já comprou</h4>
+    <select id="jaComprou">
+        <option value="Não">Não</option>
+        <option value="Sim">Sim</option>
+    </select>
+    <h4>Produto comprado</h4>
+    <select id="produtoComprado">
+        <option value="Não comprou">Não comprou</option>
+        <option value="Violão">Violão</option>
+        <option value="Violino">Violino</option>
+        <option value="Bateria">Bateria</option>
+        <option value="Guitarra">Guitarra</option>
+        <option value="Piano">Piano</option>
+    </select>
+    <h4>Frequência na loja</h4>
+    <select id="frequenciaNaLoja">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+    </select>
+    <br>
+    <br>
+    <br>
+    <button onclick="verSugestoes()"><a>Atualizar sugestões</a></button>
+    <hr class="rounded">
+    <h1>Sugestões</h1>
+    <div>
+        <ol>
+            <li id="primeiraSugestao"></li>
+            <li id="segundaSugestao"></li>
+            <li id="terceiraSugestao"></li>
+        </ol>
+    </div>
+    <hr class="rounded">
+    <h1>Criar registro</h1>
+    <h4>Tipo e-mail marketing</h4>
+    <select id="tipoEmail">
+        <option value="Loja">Loja</option>
+        <option value="Escola">Escola</option>
+    </select>
+    <h4>Instrumento e-mail marketing</h4>
+    <select id="instrumentoEmail">
+        <option value="Violão">Violão</option>
+        <option value="Violino">Violino</option>
+        <option value="Bateria">Bateria</option>
+        <option value="Guitarra">Guitarra</option>
+        <option value="Piano">Piano</option>
+    </select>
+    <br>
+    <br>
+    <br>
+    <button onclick="criarRegistro()"><a>Criar registro</a></button>
+</body>
+</html>
